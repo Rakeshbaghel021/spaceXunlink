@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #010001;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+.logo {
+  padding-left: 2rem;
+}
+.mid-nav {
+  font-size: 0.9rem;
+  color: #ecdfdf;
+}
+.right-nav {
+  font-size: 0.8rem;
+  color: #808080;
+}

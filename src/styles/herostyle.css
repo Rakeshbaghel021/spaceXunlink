@@ -1,0 +1,53 @@
+.hero-section {
+  margin-top: 100px;
+  color: #fff;
+}
+.main {
+  padding-top: 120px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.main .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 75px;
+  margin-bottom: 30px;
+  margin-top: 0;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+.title :hover {
+  color: rgb(226, 17, 17);
+  cursor: pointer;
+}
+.main .description {
+  display: inline-block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  max-width: 268px;
+}
+
+.main .description::after {
+  /* position: absolute; */
+  display: block;
+  content: "";
+  width: 1px;
+  height: 60px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 20px;
+}
+.rocket {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  z-index: 999;
+  max-width: 220px;
+  height: auto;
+}

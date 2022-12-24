@@ -1,0 +1,52 @@
+.main-wrapper {
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+}
+.App {
+  text-align: center;
+}
+.box_wrapper {
+  margin-left: 20rem;
+  width: 600px;
+  height: 200px;
+  border: 1px solid brown;
+  margin-bottom: 2px;
+  background-color: grey;
+  color: #fff;
+  text-transform: capitalize;
+  margin-top: 2rem;
+}
+.text-body {
+  color: #fff;
+}
+.btn {
+  min-height: 40px;
+  min-width: 200px;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+  align-items: center;
+  transition: 0.2s;
+  margin-left: 2rem;
+  background-color: black;
+  cursor: pointer;
+}
+.input-search {
+  height: 3rem;
+  width: 15rem;
+  font-size: 1rem;
+  background-color: black;
+  color: inherit;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
